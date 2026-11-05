@@ -2,8 +2,8 @@
 
 const prompt =require ("prompt-sync")();
 
-let m = prompt("Ingrese la cantidad de filas: ");
-let n = prompt("Ingrese la cantidad de columnas: ");
+let m = Number(prompt("Ingrese la cantidad de filas: "));
+let n = Number(prompt("Ingrese la cantidad de columnas: "));
 let caracter = prompt("Ingrese el carácter que desea imprimir: ");
 
 // Recorre las filas
